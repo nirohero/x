@@ -10,7 +10,11 @@ namespace x
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("\n");
+            Person person = new Person("Tom", 25);
+            person.Talks();
 
+            Console.WriteLine("\n");
         }
     }
 }
