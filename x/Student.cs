@@ -9,7 +9,7 @@ namespace x
     /// <summary>
     /// This is the student class
     /// </summary>
-    class Student: Person
+    public class Student: Person
     {
         //PRIVATE INSTANCE VARIABLES(FIELDS)
         private string _studentID;
